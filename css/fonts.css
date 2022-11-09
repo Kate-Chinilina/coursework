@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Leto;
+    src: url('../fonts/Leto');
+}
+
+
+@font-face {
+    font-family:Not;
+    src: url('../fonts/NotCourierSans/NotCourierSans.ttf');
+}
+@font-face {
+    font-family:Roboto;
+    src: url('../fonts/Roboto/RobotoCondensed-Light.ttf');
+}
+h1{
+    font-family: Leto;
+}
+
+h2{
+    font-family: Leto;
+    font-weight: 500;
+    /* letter-spacing: 5px; */
+    align-self: center;
+}
+h3{
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+p{
+    font-family: Not;
+    font-size: 20px;
+    letter-spacing: -1px
+}
+
+
+a{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px
+}
